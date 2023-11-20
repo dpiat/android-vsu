@@ -15,7 +15,7 @@
 
         <!--text view for displaying our note text-->
         <TextView
-            android:id="@+id/idTVPost"
+            android:id="@+id/idTVTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
@@ -26,10 +26,10 @@
 
         <!--text view for displaying our last updated text-->
         <TextView
-            android:id="@+id/idTVDate"
+            android:id="@+id/idTVBody"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVPost"
+            android:layout_below="@id/idTVTitle"
             android:layout_margin="3dp"
             android:padding="4dp"
             android:text="Updated At"

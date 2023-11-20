@@ -1,4 +1,4 @@
-package com.example.a4_lab.client
+package com.example.a5_lab.client
 
 import android.content.Context
 import android.widget.Toast

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.a4_lab">
+    package="com.example.a5_lab">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
@@ -14,7 +14,7 @@
         android:theme="@style/Theme.PostApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.a5_lab.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
